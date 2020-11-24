@@ -95,20 +95,7 @@ img {
   display: inline-flex;
   align-items: center;
 }
-.contakts::before {
-  content: "";
-  margin-right: 10px;
-}
-header .contakts:nth-child(1)::before {
-  width: 16px;
-  height: 12px;
-  background-image: url(../images/icons/envelope.svg);
-}
-header .contakts:nth-child(2)::before {
-  width: 10px;
-  height: 16px;
-  background-image: url(../images/icons/smartphone.svg);
-}
+
 .contakts:hover,
 .contakts:focus {
   color: var(--accent-color);
@@ -183,30 +170,9 @@ header .contakts:nth-child(2)::before {
 }
 /*hero*/
 /*features*/
-.feature::before {
-  content: "";
-  display: block;
-  width: 270px;
-  height: 120px;
-  background-color: var(--button-bcg-color);
-  margin-bottom: 30px;
-  background-position: center;
-  background-size: 70px;
-  background-repeat: no-repeat;
+.svg {
+  --color1: black;
 }
-.feature:nth-child(1)::before {
-  background-image: url(../images/icons/features-icons/group.svg);
-}
-.feature:nth-child(2)::before {
-  background-image: url(../images/icons/features-icons/clock.svg);
-}
-.feature:nth-child(3)::before {
-  background-image: url(../images/icons/features-icons/diagram.svg);
-}
-.feature:nth-child(4)::before {
-  background-image: url(../images/icons/features-icons/astronaut.svg);
-}
-
 .features-items {
   color: var(--headers-color);
   font-weight: 700;
@@ -314,23 +280,10 @@ header .contakts:nth-child(2)::before {
   display: inline-block;
   width: 44px;
   height: 44px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px;
+
   border-radius: 50%;
 }
-.insta {
-  background-image: url(../images/icons/soc-media-icons/instagram.svg);
-}
-.twi {
-  background-image: url(../images/icons/soc-media-icons/twitter.svg);
-}
-.face {
-  background-image: url(../images/icons/soc-media-icons/facebook.svg);
-}
-.linked {
-  background-image: url(../images/icons/soc-media-icons/linkedin.svg);
-}
+
 .socmedia-list a:hover,
 .socmedia-list a:focus {
   background-color: var(--accent-color);
@@ -347,27 +300,8 @@ header .contakts:nth-child(2)::before {
   display: inline-block;
   width: 170px;
   height: 90px;
-  background-position: center;
-  background-repeat: no-repeat;
 }
-.clients-list li:nth-child(1) a {
-  background-image: url(../images/icons/clients/client1.svg);
-}
-.clients-list li:nth-child(2) a {
-  background-image: url(../images/icons/clients/client2.svg);
-}
-.clients-list li:nth-child(3) a {
-  background-image: url(../images/icons/clients/client3.svg);
-}
-.clients-list li:nth-child(4) a {
-  background-image: url(../images/icons/clients/client4.svg);
-}
-.clients-list li:nth-child(5) a {
-  background-image: url(../images/icons/clients/client5.svg);
-}
-.clients-list li:nth-child(6) a {
-  background-image: url(../images/icons/clients/client6.svg);
-}
+
 /*clients*/
 /*футер*/
 .main-background {
@@ -429,21 +363,7 @@ footer .container {
   display: flex;
   align-items: baseline;
 }
-footer .insta {
-  background-image: url(../images/icons/footer/instagram.svg);
-}
-footer .twi {
-  background-image: url(../images/icons/footer/twitter.svg);
-}
-footer .face {
-  background-image: url(../images/icons/footer/facebook.svg);
-}
-footer .linked {
-  background-image: url(../images/icons/footer/linkedin.svg);
-}
-footer .socmedia-list a {
-  background-color: var(--footer-icons-bcg-color);
-}
+
 /*футер*/
 /*portfolio*/
 .port-header {
