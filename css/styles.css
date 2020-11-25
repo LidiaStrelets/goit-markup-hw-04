@@ -118,6 +118,13 @@ img {
   display: flex;
   align-items: center;
 }
+.icon-envelope {
+  margin-right: 10px;
+  --color4: #757575;
+}
+.icon-envelope:hover {
+  --color4: var(--accent-color);
+}
 /*шапка*/
 /*hero*/
 .hero {
@@ -170,9 +177,7 @@ img {
 }
 /*hero*/
 /*features*/
-.svg {
-  --color1: black;
-}
+
 .features-items {
   color: var(--headers-color);
   font-weight: 700;
