@@ -95,7 +95,7 @@ img {
   display: inline-flex;
   align-items: center;
 
-  --color4: #757575;
+  --color4: var(--text-color);
 }
 
 .contakts:hover,
@@ -122,7 +122,8 @@ img {
   display: flex;
   align-items: center;
 }
-.icon-envelope {
+.icon-envelope,
+.icon-smartphone {
   margin-right: 10px;
 }
 
@@ -206,6 +207,21 @@ img {
 }
 .featuresbox > li:not(:last-child) {
   margin-right: 30px;
+}
+.feature-icon {
+  background-color: var(--button-bcg-color);
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.icon-group,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 /*features*/
 
