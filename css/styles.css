@@ -94,11 +94,15 @@ img {
   color: inherit;
   display: inline-flex;
   align-items: center;
+
+  --color4: #757575;
 }
 
 .contakts:hover,
 .contakts:focus {
   color: var(--accent-color);
+
+  --color4: var(--accent-color);
 }
 .nav-list {
   display: flex;
@@ -120,11 +124,8 @@ img {
 }
 .icon-envelope {
   margin-right: 10px;
-  --color4: #757575;
 }
-.icon-envelope:hover {
-  --color4: var(--accent-color);
-}
+
 /*шапка*/
 /*hero*/
 .hero {
