@@ -293,11 +293,7 @@ img {
   justify-content: space-between;
   padding-bottom: 30px;
 }
-/*
-.socmedia-list a {
-  display: inline-block;
-}
-*/
+
 .team-icon {
   width: 44px;
   height: 44px;
@@ -395,14 +391,26 @@ img {
   width: 206px;
   margin-left: 70px;
 }
-footer .socmedia-list {
+footer .join-list {
   padding: 0;
 }
 footer .container {
   display: flex;
   align-items: baseline;
 }
+.join-list {
+  display: flex;
 
+  justify-content: space-between;
+}
+footer .team-icon {
+  --color3: var(--white-color);
+  background-color: var(--footer-icons-bcg-color);
+}
+footer .team-icon:hover,
+footer .team-icon:focus {
+  background-color: var(--accent-color);
+}
 /*футер*/
 /*portfolio*/
 .port-header {
