@@ -11,6 +11,7 @@
   --footer-address-color: rgba(255, 255, 255, 0.6);
   --footer-icons-bcg-color: rgba(255, 255, 255, 0.1);
   --hero-bg-color: rgba(47, 48, 58, 0.4);
+  --icon-color: #afb1b8;
 }
 /*общие стили*/
 body {
@@ -306,7 +307,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  --color3: #afb1b8;
+  --color3: var(--icon-color);
 }
 .socmedia-list a:hover,
 .socmedia-list a:focus {
@@ -322,9 +323,22 @@ img {
 }
 
 .clients-list a {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 170px;
   height: 90px;
+
+  border: 1px solid var(--icon-color);
+
+  --color3: var(--icon-color);
+}
+
+.clients-list a:hover,
+.clients-list a:focus {
+  border: 1px solid var(--accent-color);
+  --color3: var(--accent-color);
 }
 
 /*clients*/
